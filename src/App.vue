@@ -1,4 +1,5 @@
 <script setup>
+import Creation from './components/Creation.vue';
 import Navbar from './components/Navbar.vue';
 import { ref } from 'vue'
 
@@ -18,6 +19,7 @@ const menuItems = ref([
   <div class="h-screen">
 
     <Navbar :menuItems="menuItems"/>
+    <Creation/>
 
   </div>
   
