@@ -36,7 +36,7 @@ defineProps({
             </nav>
 
             <!-- box content -->
-            <div class="w-fit tracking-widest text-white text-4xl font-thin border border-white p-5 mb-20">
+            <div class="w-full md:w-fit tracking-widest text-white text-4xl font-thin border border-white p-5 mb-20">
                 <h1>IMPRESSIVE</h1>
                 <h1>EXPERIENCES</h1>
                 <h1>THAT DELIVER</h1>
