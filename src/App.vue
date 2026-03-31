@@ -1,4 +1,6 @@
 <script setup>
+import Creation from './components/Creation.vue';
+import Feature from './components/Feature.vue';
 import Navbar from './components/Navbar.vue';
 import { ref } from 'vue'
 
@@ -15,9 +17,13 @@ const menuItems = ref([
 
 <template>
   
-  <div class="h-screen">
+  <div class="h-screen flex flex-col space-y-20">
 
     <Navbar :menuItems="menuItems"/>
+
+    <Feature/>
+
+    <Creation/>
 
   </div>
   

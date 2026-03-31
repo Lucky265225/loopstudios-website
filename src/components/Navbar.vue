@@ -16,7 +16,7 @@ defineProps({
     <section class="bg-[url(assets/mobile/image-hero.jpg)] bg-no-repeat bg-cover 
     md:bg-[url(assets/desktop/image-hero.jpg)]">
         <div class="container max-w-6xl mx-auto px-6 py-12">
-            <nav class="flex items-center justify-between font-bold text-white">
+            <nav class="flex items-center justify-between font-bold text-white mb-20">
                 <img src="../assets/logo.svg" alt="" @click="">
                 <!-- desktop -->
                 <div class="hidden h-10 font-sans md:flex md:space-x-8">
@@ -34,6 +34,13 @@ defineProps({
                     <a v-for="item in menuItems" :href="item.link">{{ item.name }}</a>
                 </div>
             </nav>
+
+            <!-- box content -->
+            <div class="w-fit tracking-widest text-white text-4xl font-thin border border-white p-5 mb-20">
+                <h1>IMPRESSIVE</h1>
+                <h1>EXPERIENCES</h1>
+                <h1>THAT DELIVER</h1>
+            </div>
         </div>
     </section>
   
